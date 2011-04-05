@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Anmeldung</title>
+</head>
+<body>
+	<form action="" method="" accept-charset="utf-8">
+		
+		<p>Name <input type="text" name="name" /></p>
+		<p>Vorname <input type="text" name="vorname" /></p>
+		<p>Email <input type="text" name="email" /></p>
+		<p>LV-Nr
+        	<select name="lvnr" size="1">
+      			<option selected="selected">4752 Web-Engineering</option>
+     			<option>7363 Web-basierte Abwendungen</option>
+      		</select>
+
+        </p>
+        <p>Aufgabe-Nr
+        	<select name="aufnr" size="1">
+      			<option selected="selected">1</option>
+     			<option>2</option>
+     			<option>3</option>
+      		</select>
+
+        </p>
+		
+    <p>Aufgabe-Nr <input type="text" name="aufnr" /></p>
+		<p><input type="submit" value="Senden" /></p>
+	
+	<input type="radio" name="Bearbeitung" value="Team"/>Team<br/> 
+	<input type="radio" name="Bearbeitung" value="Alleine"/>Alleine
+	</form>
+	
+
+</body>
+</html>
+
+
